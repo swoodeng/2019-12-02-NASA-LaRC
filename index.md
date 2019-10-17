@@ -1,13 +1,13 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "NASA LaRC"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "1 NASA Dr, hampton VA, 23666"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "1 NASA Dr, Hampton VA, 23666"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "US"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "EN"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "37.08250"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-76.38001"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Dec 2-3 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "8:30 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humandate: "Dec 2-3, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "8:30 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-12-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-12-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Michelle Rodio", "Stephen Wood"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
