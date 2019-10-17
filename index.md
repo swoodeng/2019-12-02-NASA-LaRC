@@ -19,7 +19,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="general">General Information</h2>
 
-INTRODUCTION
 
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
@@ -29,9 +28,6 @@ INTRODUCTION
 {% include lc/intro.html %}
 {% endif %}
 
-AUDIENCE
-
-NASA LaRC Researchers. 
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
@@ -39,8 +35,6 @@ NASA LaRC Researchers.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
-
-LOCATION
 
 {% if page.latitude and page.longitude %}
 <p id="where">
@@ -53,8 +47,6 @@ LOCATION
 </p>
 {% endif %}
 
-DATE
-
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
@@ -63,21 +55,14 @@ DATE
 </p>
 {% endif %}
 
-SPECIAL REQUIREMENTS
-
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
-CODE OF CONDUCT
-
 <p id="code-of-conduct">
 <strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
-
-
-ACCESSIBILITY
 
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
@@ -96,8 +81,6 @@ ACCESSIBILITY
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
-
-CONTACT EMAIL ADDRESS
 
 <p id="contact">
   <strong>Contact</strong>:
@@ -121,8 +104,6 @@ CONTACT EMAIL ADDRESS
 
 <hr/>
 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
-
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "swc" %} 
@@ -139,9 +120,6 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <hr/>
 
 
-
-SCHEDULE
-
 <h2 id="schedule">Schedule</h2>
 
 {% if site.carpentry == "swc" %}
@@ -152,7 +130,6 @@ SCHEDULE
 {% include lc/schedule.html %}
 {% endif %}
 
-Collaborative Notes
 
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
@@ -161,8 +138,6 @@ Collaborative Notes
 {% endif %}
 
 <hr/>
-
-SYLLABUS
 
 <h2 id="syllabus">Syllabus</h2>
 
@@ -175,8 +150,6 @@ SYLLABUS
 {% endif %}
 
 <hr/>
-
-SETUP
 
 <h2 id="setup">Setup</h2>
 
